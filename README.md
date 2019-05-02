@@ -5,7 +5,7 @@ Bootstrap Project With Express, Typescript and Jest
 - Express
 - Jest
 - typescript-eslint
-- Prettier  
+- Prettier
 
 VS Code extensions :
 - ESLint
@@ -14,3 +14,4 @@ VS Code extensions :
 - npm Intellisense
 - Prettier - Code formatter
 - Rainbow Brackets
+- Document This
