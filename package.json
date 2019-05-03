@@ -8,7 +8,7 @@
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./src/app.ts",
     "prod": "tsc && node ./dist/app.js",
-    "lint": "eslint ./src/*"
+    "lint": "tsc --noEmit && eslint --ext .ts,.tsx -c ./.eslintrc.js ./src"
   },
   "repository": {
     "type": "git",
